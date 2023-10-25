@@ -443,6 +443,8 @@ h3 {
 	position: relative;
 	margin: 0 auto;
 	overflow: hidden;
+	width: 360px;
+	height: 300px;
 }
 .portfolio_item-box:hover .portfolio_item-overlay {
 	transform: translatey(0);
