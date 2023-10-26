@@ -476,3 +476,26 @@ h3 {
 .portfolio_division {
 	padding-top: 8px;
 }
+
+/* modal */
+
+.modal-window {
+	position: fixed;
+	inset: 0 0 auto;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 1;
+	pointer-events: all;
+}
+.modal-window.is-hidden {
+	opacity: 0;
+	pointer-events: none;
+}
+.modal-body {
+	background-color: var(--modal-overlay);
+	color: var(--text);
+	width: 400px;
+	height: 584px;
+}

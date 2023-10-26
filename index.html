@@ -72,7 +72,7 @@
 						for Your business
 					</h1>
 					<div class="hero_button">
-						<button class="hero_button-look" type="button">
+						<button data-modal-open class="hero_button-look" type="button">
 							Order Service
 						</button>
 					</div>
@@ -394,5 +394,12 @@
 				</div>
 			</section>
 		</footer>
+		<aside class="modal-window is-hidden" data-modal>
+			<section class="modal-body">
+				<p>modal</p>
+				<button type="button" data-modal-close>close</button>
+			</section>
+		</aside>
+		<script src="./modal.js"></script>
 	</body>
 </html>
