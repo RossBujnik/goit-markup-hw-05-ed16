@@ -446,7 +446,7 @@ h3 {
 	width: 360px;
 	height: 300px;
 }
-.portfolio_item-box:hover .portfolio_item-overlay {
+.portfolio_item:hover .portfolio_item-overlay {
 	transform: translatey(0);
 }
 .portfolio_item-overlay {
